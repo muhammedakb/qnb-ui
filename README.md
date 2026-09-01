@@ -28,10 +28,16 @@ Uygulamanın global girişinde stil dosyasını bir kez import edin:
 import "@muhammedakb/qnb-ui/styles.css"
 ```
 
-Componentleri paket kökünden kullanın:
+Componentleri amaçlarına göre ayrılmış paket alt yollarından kullanın:
 
 ```tsx
-import { Button, Card, Input } from "@muhammedakb/qnb-ui"
+import { Button } from "@muhammedakb/qnb-ui/actions"
+import { Card } from "@muhammedakb/qnb-ui/data-display"
+import { Input } from "@muhammedakb/qnb-ui/forms"
 ```
+
+Kullanılabilir alt yollar: `actions`, `data-display`, `feedback`, `forms`,
+`layout`, `navigation` ve `overlays`. Geriye dönük uyumluluk için paket kökü de
+aynı componentleri dışa aktarmaya devam eder.
 
 Uygulamanın kendi Tailwind CSS kurulumu ve utility class'ları bağımsız olarak kullanılmaya devam eder. Paket CSS'i sadece kütüphane componentlerinin ihtiyaç duyduğu utility class'ları ve tasarım tokenlarını içerir.
