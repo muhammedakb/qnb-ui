@@ -4,3 +4,6 @@ dist
 .DS_Store
 vite.config.js
 vite.config.d.ts
+
+*storybook.log
+storybook-static

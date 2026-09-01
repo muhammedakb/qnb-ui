@@ -9,6 +9,25 @@ npm install
 npm run dev
 ```
 
+## Storybook
+
+Component kataloğunu yerel olarak çalıştırmak için:
+
+```bash
+npm run storybook
+```
+
+Statik Storybook çıktısı ve tarayıcı tabanlı component testleri için:
+
+```bash
+npm run build-storybook
+npm run test-storybook
+```
+
+Story dosyaları ilgili componentlerin yanında `*.stories.tsx` adıyla tutulur.
+Storybook; light/dark tema geçişini, Controls ve Docs panellerini, etkileşim
+testlerini ve otomatik erişilebilirlik kontrollerini içerir.
+
 ## Build
 
 ```bash

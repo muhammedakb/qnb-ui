@@ -13,5 +13,9 @@
     "src/components/**/*.ts",
     "src/components/**/*.tsx",
     "src/lib/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.stories.ts",
+    "src/**/*.stories.tsx"
   ]
 }

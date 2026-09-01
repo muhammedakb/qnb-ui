@@ -66,7 +66,7 @@ export function Stepper<TStep extends number>({
                   )}
                 </span>
                 <span className="min-w-0">
-                  <span className="hidden text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground sm:block">
+                  <span className="hidden text-[11px] font-medium uppercase tracking-[0.14em] text-foreground/70 sm:block">
                     {step.number}. adım
                   </span>
                   <span

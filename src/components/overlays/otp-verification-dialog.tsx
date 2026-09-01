@@ -80,6 +80,7 @@ export function OtpVerificationDialog({
             onChange={onValueChange}
             onComplete={onVerify}
             containerClassName="justify-center"
+            aria-label="Tek kullanımlık şifre"
             aria-invalid={!!error}
           >
             <InputOTPGroup className="gap-2">
