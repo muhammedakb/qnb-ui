@@ -7,7 +7,7 @@ import {
   within,
 } from "storybook/test"
 
-import { Button } from "../actions/button"
+import { Button } from "../../actions/button"
 import {
   Dialog,
   DialogContent,

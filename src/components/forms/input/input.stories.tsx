@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { MailIcon } from "lucide-react"
 
-import { Field, FieldDescription, FieldError, FieldLabel } from "./field"
+import { Field, FieldDescription, FieldError, FieldLabel } from "../field"
+import { InputShell } from "../input-shell"
 import { Input } from "./input"
-import { InputShell } from "./input-shell"
 
 const meta = {
   title: "Forms/Input",

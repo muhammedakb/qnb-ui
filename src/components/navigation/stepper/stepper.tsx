@@ -2,7 +2,7 @@
 
 import type { LucideIcon } from "lucide-react"
 
-import { cn } from "../../lib/cn"
+import { cn } from "../../../lib/cn"
 
 export type StepperStep<TStep extends number = number> = {
   number: TStep

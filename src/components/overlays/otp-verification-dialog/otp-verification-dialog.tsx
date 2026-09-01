@@ -2,12 +2,12 @@
 
 import { Info, ShieldCheck } from "lucide-react"
 
-import { Button } from "../actions/button"
+import { Button } from "../../actions/button"
 import {
   InputOTP,
   InputOTPGroup,
   InputOTPSlot,
-} from "../forms/input-otp"
+} from "../../forms/input-otp"
 import {
   Dialog,
   DialogContent,
@@ -15,7 +15,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "./dialog"
+} from "../dialog"
 
 export type OtpVerificationDialogProps = {
   open: boolean
